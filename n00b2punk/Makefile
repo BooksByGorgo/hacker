@@ -15,7 +15,7 @@ all: pdf
 
 pdf: $(BOOK)
 
-$(BOOK): $(SOURCES) references.bib frontmatter.yaml callout.lua Makefile
+$(BOOK): $(SOURCES) references.bib ieee.csl frontmatter.yaml callout.lua Makefile
 	@command -v $(PANDOC) >/dev/null || { echo "Install Pandoc to build the PDF." >&2; exit 1; }
 	@command -v latexmk >/dev/null || { echo "Install latexmk to build the PDF." >&2; exit 1; }
 	@command -v lualatex >/dev/null || { echo "Install LuaLaTeX to build the PDF." >&2; exit 1; }
@@ -23,7 +23,7 @@ $(BOOK): $(SOURCES) references.bib frontmatter.yaml callout.lua Makefile
 	$(PANDOC) $(SOURCES) --output="$@" \
 		--metadata-file=frontmatter.yaml \
 		--from=markdown --standalone --top-level-division=chapter \
-		--citeproc --bibliography=references.bib \
+		--citeproc --bibliography=references.bib --csl=ieee.csl \
 		--lua-filter=callout.lua \
 		--pdf-engine=latexmk --pdf-engine-opt=-lualatex
 

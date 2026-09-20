@@ -7,6 +7,8 @@ The result is `n00b2punk/n00b2punk.pdf` when viewed from the repository root.
 The build includes existing `chNN.md` files in numeric order, followed by the references.
 New chapters are included automatically when added with two-digit filenames.
 Chapter numbering starts at zero to match the source files.
+Pandoc formats citations and references in IEEE style using the bundled `ieee.csl`.
+This is the same style file used by the C++ books; its attribution and CC BY-SA 3.0 license are preserved in the file.
 
 ## Requirements
 
