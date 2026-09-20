@@ -61,6 +61,9 @@ Do not restore its removed "Identify the Shell You Are Using" section or the mat
 - Use one sentence per source line where practical, descriptive headings, fenced code blocks, and Pandoc citations backed by `n00b2punk/references.bib`.
 - Use `::: {.tip}` callouts labeled **Tip**, **Trap**, or **Wut** when they help readers understand a detail.
 - Explain new terms and commands before relying on them. Make commands copyable; distinguish typed commands from prompts and output.
+- Match `~/git/opentofu` for console examples: use `session` fences, prefix typed lines with `$ `, and place output on the following lines. Explain that `$ ` is a book marker, not something to type, including in Windows examples.
+- Render sessions as shaded, outlined boxes with bold commands. HTML Copy commands buttons must omit the marker and output; mark non-executable prompt illustrations with `.no-copy`.
+- Introduce Tip, Trap, and Wut in Chapter 0, following `~/git/go`. Use the matching bundled `images/*-callout.png` icons in callout boxes in PDF and HTML.
 - Give Bash/zsh, PowerShell, and cmd examples accurate language labels. Do not imply that shared-looking names have shared semantics.
 - Finish instructional chapters with Key Points and a **Level Up** section instead of Try It, modification-challenge, or troubleshooting-exercise sections.
 - Level Up marks the point where n00bs can finish and hackers start exploring alternatives. Offer concrete tools and questions that encourage independent investigation.
