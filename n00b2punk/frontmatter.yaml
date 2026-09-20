@@ -17,9 +17,15 @@ mainfont: "TeX Gyre Pagella"
 monofont: "JetBrains Mono"
 header-includes:
   - \usepackage[most]{tcolorbox}
+  - \usepackage{fancyvrb}
+  - \usepackage{accsupp}
   - \setcounter{chapter}{-1}
   - |
     ```{=latex}
+    \makeatletter
+    \def\FV@Space{\BeginAccSupp{method=hex,ActualText=20}\char32\EndAccSupp{}}
+    \makeatother
+    \RecustomVerbatimEnvironment{verbatim}{Verbatim}{}
     \directlua{luaotfload.add_fallback("hax0r_symbols", {"DejaVuSans:mode=harf;"})}
     \setmainfont{TeX Gyre Pagella}[RawFeature={fallback=hax0r_symbols}]
     \setmonofont{JetBrains Mono}[Scale=MatchLowercase, RawFeature={-calt,-liga,-dlig,fallback=hax0r_symbols}]

@@ -1,6 +1,6 @@
-.PHONY: all pdf clean
+.PHONY: all pdf html clean
 
 all: pdf
 
-pdf clean:
+pdf html clean:
 	$(MAKE) -C n00b2punk $@
