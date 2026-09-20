@@ -26,33 +26,34 @@ The reader should become comfortable with UNIX shells and Windows shells, termin
 
 ## Chapter Plan
 
-Use `ch00.md` through `ch19.md` in this order:
+Use `ch00.md` through `ch18.md` in this order:
 
 | Chapter | Title | Main coverage |
 |---|---|---|
 | 00 | Introduction | Hacking, history, leetspeak, the series progression, and how to learn. |
-| 01 | Meet Your Terminal | Terminal/shell/OS distinction; terminal applications; tabs, panes, profiles, clipboard, scrollback, search, and display settings. |
-| 02 | Meet Your Shell | Bash, zsh, PowerShell, and cmd; identification, versions, prompts, sessions, first commands, and exit. |
-| 03 | Anatomy of a Command | Names, arguments, options, paths, built-ins, programs, aliases, cmdlets, command discovery, and help. |
-| 04 | Stop Fighting the Keyboard | Cursor movement, editing, history, search, completion, multiline input, cancellation, and shortcut ownership. |
-| 05 | Where Am I? | Filesystem navigation, roots, drives, home, paths, hidden files, extensions, and case sensitivity. |
-| 06 | Make, Move, Copy, Remove | File/directory creation, copying, moving, renaming, removal, recursion, overwrites, links, and junctions. |
-| 07 | Edit Something | Nano, Vim basics, VS Code from the shell, editing operations, plain text, encodings, and line endings. |
-| 08 | Find Things and Read Them | Pagers, file inspection, filename/content search, grep/rg/find, PowerShell equivalents, and regex vs. globbing. |
-| 09 | What the Shell Does to Your Command | Quoting, escaping, variables, expansion, substitution, and the arguments programs receive. |
-| 10 | Make Commands Work Together | Input/output/error, pipes, redirection, exit status, conditional execution, text filters, and object pipelines. |
-| 11 | Your Environment and Your Tools | Environment variables, PATH, executable lookup, package managers, installation, and version conflicts. |
-| 12 | Who Can Do What? | Users, groups, ownership, UNIX permissions, Windows ACL basics, executable permissions, and elevation. |
-| 13 | Programs That Keep Running | Processes, jobs, foreground/background execution, stopping programs, and resource inspection. |
-| 14 | Make the Shell Yours | Startup files, profiles, aliases, functions, prompts, history, completion, key bindings, and configuration recovery. |
-| 15 | From Commands to Scripts | Arguments, variables, conditions, loops, functions, exit codes, error handling, Bash/PowerShell scripts, and batch basics. |
-| 16 | Work Across Machines | SSH, remote commands, transfers, downloads, connection troubleshooting, and persistent sessions with tmux. |
-| 17 | Cross the OS Boundary | WSL, path conversion, shared files, encodings, line endings, archives, checksums, and BSD/GNU differences. |
-| 18 | Keep Your Work | Git status/diff/add/commit/log, restoration, ignore rules, and keeping secrets out of repositories. |
-| 19 | Earn Console Punk | A practical project combining exploration, editing, pipelines, scripting, troubleshooting, and version control. |
+| 01 | Meet Your Terminal and Shell | Terminal/shell/OS distinction with a labeled screen capture; terminal applications and features; Bash, zsh, PowerShell, cmd, and prompts; Level Up exploration. |
+| 02 | Anatomy of a Command | Names, arguments, options, paths, built-ins, programs, aliases, cmdlets, command discovery, and help. |
+| 03 | Stop Fighting the Keyboard | Cursor movement, editing, history, search, completion, multiline input, cancellation, and shortcut ownership. |
+| 04 | Where Am I? | Filesystem navigation, roots, drives, home, paths, hidden files, extensions, and case sensitivity. |
+| 05 | Make, Move, Copy, Remove | File/directory creation, copying, moving, renaming, removal, recursion, overwrites, links, and junctions. |
+| 06 | Edit Something | Nano, Vim basics, VS Code from the shell, editing operations, plain text, encodings, and line endings. |
+| 07 | Find Things and Read Them | Pagers, file inspection, filename/content search, grep/rg/find, PowerShell equivalents, and regex vs. globbing. |
+| 08 | What the Shell Does to Your Command | Quoting, escaping, variables, expansion, substitution, and the arguments programs receive. |
+| 09 | Make Commands Work Together | Input/output/error, pipes, redirection, exit status, conditional execution, text filters, and object pipelines. |
+| 10 | Your Environment and Your Tools | Environment variables, PATH, executable lookup, package managers, installation, and version conflicts. |
+| 11 | Who Can Do What? | Users, groups, ownership, UNIX permissions, Windows ACL basics, executable permissions, and elevation. |
+| 12 | Programs That Keep Running | Processes, jobs, foreground/background execution, stopping programs, and resource inspection. |
+| 13 | Make the Shell Yours | Startup files, profiles, aliases, functions, prompts, history, completion, key bindings, and configuration recovery. |
+| 14 | From Commands to Scripts | Arguments, variables, conditions, loops, functions, exit codes, error handling, Bash/PowerShell scripts, and batch basics. |
+| 15 | Work Across Machines | SSH, remote commands, transfers, downloads, connection troubleshooting, and persistent sessions with tmux. |
+| 16 | Cross the OS Boundary | WSL, path conversion, shared files, encodings, line endings, archives, checksums, and BSD/GNU differences. |
+| 17 | Keep Your Work | Git status/diff/add/commit/log, restoration, ignore rules, and keeping secrets out of repositories. |
+| 18 | Earn Console Punk | A practical project combining exploration, editing, pipelines, scripting, troubleshooting, and version control. |
 
 Plan appendices for command comparisons, shortcuts by shell/terminal, startup-file locations, and Vim survival keys.
 Do not create empty chapter files merely to fill out this plan.
+The former shell chapter is merged into Chapter 1 only through "Read the Prompt".
+Do not restore its removed "Identify the Shell You Are Using" section or the material that followed it without a new request.
 
 ## Writing and Teaching
 
@@ -61,7 +62,8 @@ Do not create empty chapter files merely to fill out this plan.
 - Use `::: {.tip}` callouts labeled **Tip**, **Trap**, or **Wut** when they help readers understand a detail.
 - Explain new terms and commands before relying on them. Make commands copyable; distinguish typed commands from prompts and output.
 - Give Bash/zsh, PowerShell, and cmd examples accurate language labels. Do not imply that shared-looking names have shared semantics.
-- Finish instructional chapters with Key Points, a hands-on Try It, a modification challenge, and a troubleshooting exercise.
+- Finish instructional chapters with Key Points and a **Level Up** section instead of Try It, modification-challenge, or troubleshooting-exercise sections.
+- Level Up marks the point where n00bs can finish and hackers start exploring alternatives. Offer concrete tools and questions that encourage independent investigation.
 - Use a disposable practice directory for exercises that modify files. Explain destructive behavior when introducing it.
 - Encourage readers to predict, run, inspect, change, and explain. Examples and AI are learning aids; successful output alone is not evidence of understanding.
 - Cite definitions, historical claims, and relevant official technical documentation. Verify version-sensitive behavior with primary sources.
