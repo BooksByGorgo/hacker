@@ -1,4 +1,12 @@
-# Terminal Anatomy Figure
+# Book Images
+
+## Callout Icons
+
+`tip-callout.png`, `trap-callout.png`, and `wut-callout.png` are the 256×256 icons copied unchanged from `~/git/go/images/`.
+`callout.lua` selects the matching icon from the bold **Tip:**, **Trap:**, or **Wut:** label at the start of a `.tip` div.
+Both the PDF and HTML builds use these bundled assets; the Go repository is not needed to build the book.
+
+## Terminal Anatomy Figure
 
 `terminal-capture.png` is an actual xterm window running Bash, captured for this book.
 The startup banner displays Bash's version, and the prompt is customized to use the neutral example `student@lab:/tmp$`.

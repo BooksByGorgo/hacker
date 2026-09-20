@@ -22,6 +22,7 @@ This is the same style file used by the C++ books; its attribution and CC BY-SA 
 - The fonts TeX Gyre Pagella, JetBrains Mono, and DejaVu Sans.
 
 The font choices and callout styling follow the C++ and Go books.
+Tip, Trap, and Wut boxes use the matching icons bundled from the Go book, with an icon column beside the text in PDF and HTML.
 Console boxes, copy buttons, and the browser stylesheet are adapted from `~/git/opentofu`.
 Use `session` fences for console conversations: `$ ` marks each typed command, and subsequent unmarked lines show output.
 The marker is a book convention for all shells; readers do not type it.
