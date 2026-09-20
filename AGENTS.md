@@ -33,8 +33,8 @@ Use `ch00.md` through `ch18.md` in this order:
 | 00 | Introduction | Hacking, history, leetspeak, the series progression, and how to learn. |
 | 01 | Meet Your Terminal and Shell | Terminal/shell/OS distinction with a labeled screen capture; terminal applications and features; Bash, zsh, PowerShell, cmd, and prompts; Level Up exploration. |
 | 02 | Anatomy of a Command | Names, arguments, options, paths, built-ins, programs, aliases, cmdlets, command discovery, and help. |
-| 03 | Stop Fighting the Keyboard | Cursor movement, editing, history, search, completion, multiline input, cancellation, and shortcut ownership. |
-| 04 | Where Am I? | Filesystem navigation, roots, drives, home, paths, hidden files, extensions, and case sensitivity. |
+| 03 | Where Am I? | Filesystem navigation, roots, drives, home, paths, hidden files, extensions, and case sensitivity. |
+| 04 | Stop Fighting the Keyboard | Cursor movement, editing, history, search, completion, multiline input, cancellation, and shortcut ownership. |
 | 05 | Make, Move, Copy, Remove | File/directory creation, copying, moving, renaming, removal, recursion, overwrites, links, and junctions. |
 | 06 | Edit Something | Nano, Vim basics, VS Code from the shell, editing operations, plain text, encodings, and line endings. |
 | 07 | Find Things and Read Them | Pagers, file inspection, filename/content search, grep/rg/find, PowerShell equivalents, and regex vs. globbing. |
