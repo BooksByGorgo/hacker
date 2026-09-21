@@ -4,7 +4,7 @@ BOOK := n00b2punk.pdf
 HTML := n00b2punk.html
 CHAPTERS := $(sort $(wildcard ch[0-9][0-9].md))
 APPENDICES := $(sort $(wildcard app[A-Z].md))
-SOURCES := $(CHAPTERS) appendix-start.md $(APPENDICES) bibliography.md
+SOURCES := $(CHAPTERS) start-appendices.md $(APPENDICES) bibliography.md
 CH_PDFS := $(CHAPTERS:.md=.pdf)
 APP_PDFS := $(APPENDICES:.md=.pdf)
 IMAGES := $(wildcard images/*.png)
