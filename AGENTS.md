@@ -65,7 +65,7 @@ Do not restore its removed "Identify the Shell You Are Using" section or the mat
 ## Writing and Teaching
 
 - direct explanations, short paragraphs, concrete examples, and a conversational voice.
-- Avoid figurative phrasing in explanations, such as "Knowing the spelling is only half the job." State the behavior, reason, or action directly.
+- Avoid figurative phrasing in explanations, such as "Knowing the spelling is only half the job." State the behavior, reason, or action directly; prefer `form` and `see` or other more specific words rather than `shape` or `meet`
 - Use one sentence per source line where practical, descriptive headings, fenced code blocks, and Pandoc citations backed by `n00b2punk/references.bib`.
 - Use `::: {.tip}` callouts labeled **Tip**, **Trap**, or **Wut** when they help readers understand a detail.
 - Explain new terms and commands before relying on them. Make commands copyable; distinguish typed commands from prompts and output.
