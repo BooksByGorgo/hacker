@@ -1,0 +1,29 @@
+title: way of the hax0r
+description: Free, evolving books that help students develop hacker skills
+theme: just-the-docs
+
+plugins:
+  - jekyll-sitemap
+
+url: https://gorgo.dev
+baseurl: /hacker
+
+aux_links:
+  GitHub:
+    - https://github.com/BooksByGorgo/hacker
+
+color_scheme: light
+
+# the theme button only knows rouge blocks; assets/js/copy-code.js covers
+# the pandoc and session blocks instead
+enable_copy_code_button: false
+
+footer_content: >-
+  Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
+
+nav_sort: case_insensitive
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor

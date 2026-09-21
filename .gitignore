@@ -1,0 +1,14 @@
+# generated site pages, PDFs, and images --- built by build-site.sh
+docs/n00b2punk/
+docs/_includes/n00b2punk-chapters.html
+
+# jekyll
+docs/_site/
+docs/.jekyll-cache/
+docs/Gemfile.lock
+docs/vendor/
+docs/.bundle/
+
+# editors and local tool settings
+*.swp
+.claude/settings.local.json

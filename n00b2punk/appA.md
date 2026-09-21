@@ -1,7 +1,3 @@
-```{=latex}
-\appendix
-```
-
 # Command Comparisons
 
 The same intent in each shell.

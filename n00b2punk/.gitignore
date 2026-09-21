@@ -1,3 +1,11 @@
 /n00b2punk.pdf
 /n00b2punk.html
 /build/
+/ch[0-9][0-9].pdf
+/app[A-Z].pdf
+/*.aux
+/*.log
+/*.toc
+/*.out
+/*.fls
+/*.fdb_latexmk
