@@ -9,8 +9,8 @@ Keep it beside `book.css`, `copy-code.js`, and `images/`.
 Its **Copy commands** buttons copy only typed commands, without prompts or output.
 These interactive buttons are for HTML, not the PDF.
 
-The build includes existing `chNN.md` files in numeric order, followed by the references.
-New chapters are included automatically when added with two-digit filenames.
+The build includes existing `chNN.md` files in numeric order, then `appX.md` appendices in letter order, followed by the references.
+New chapters and appendices are included automatically when added with those filename patterns.
 Chapter numbering starts at zero to match the source files.
 Pandoc formats citations and references in IEEE style using the bundled `ieee.csl`.
 This is the same style file used by the C++ books; its attribution and CC BY-SA 3.0 license are preserved in the file.

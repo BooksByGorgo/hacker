@@ -3,7 +3,8 @@ PANDOC ?= pandoc
 BOOK := n00b2punk.pdf
 HTML := n00b2punk.html
 CHAPTERS := $(sort $(wildcard ch[0-9][0-9].md))
-SOURCES := $(CHAPTERS) bibliography.md
+APPENDICES := $(sort $(wildcard app[A-Z].md))
+SOURCES := $(CHAPTERS) $(APPENDICES) bibliography.md
 IMAGES := $(wildcard images/*.png)
 
 # Keep LuaLaTeX's writable font cache with the ignored build artifacts.
