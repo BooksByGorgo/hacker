@@ -32,7 +32,7 @@ Use `ch00.md` through `ch15.md` in this order:
 |---|---|---|
 | 00 | Introduction | Hacking, history, leetspeak, the series progression, and how to learn. |
 | 01 | Terminal and Shell | Terminal/shell/OS distinction with a labeled screen capture; terminal applications and features; Bash, zsh, PowerShell, cmd, and prompts; Level Up exploration. |
-| 02 | Anatomy of a Command | Names, arguments, options, paths, built-ins, programs, aliases, cmdlets, command discovery, and help. Quoting, escaping, variables, expansion, substitution, and the arguments programs receive. Environment variables, PATH, executable lookup, package managers, installation, and version conflicts. |
+| 02 | Anatomy of a Command | Names, arguments, options, paths, built-ins, programs, aliases, cmdlets, command discovery, and help. Quoting, escaping, variables, expansion, substitution, and the arguments programs receive. Environment variables, PATH, executable lookup, package managers, and installation. |
 | 03 | Filesystems | Filesystem navigation, roots, drives, home, paths, hidden files, extensions, and case sensitivity. File/directory creation, copying, moving, renaming, removal, recursion, overwrites, links, and junctions. |
 | 04 | Stop Fighting the Keyboard | Cursor movement, editing, history, search, completion, multiline input, cancellation, and shortcut ownership. |
 | 05 | Edit Something | Nano, Vim basics, VS Code from the shell, editing operations, plain text, encodings, and line endings. |
